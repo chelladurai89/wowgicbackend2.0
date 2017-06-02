@@ -1,0 +1,66 @@
+sathishsms@gmail.com
+rhc app create wowgicFlaskApp python-2.7 --from-code=https://github.com/chelladurai89/wowgic.git
+
+
+ateps to complete your configuration:
+    1. Clone your git repo
+      $ rhc git-clone wowgicflaskapp
+
+  If you continue to experience problems after completing these steps,
+  you can try destroying and recreating the application:
+
+    $ rhc app delete wowgicflaskapp --confirm
+
+  Please contact us if you are unable to successfully create your
+  application:
+
+    Support - https://www.openshift.com/support
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+Your application 'wowgicflaskapp' is now available.
+
+  URL:        http://wowgicflaskapp-wowgic.rhcloud.com/
+  SSH to:     567cc1842d52712f2000013a@wowgicflaskapp-wowgic.rhcloud.com
+  Git remote: ssh://567cc1842d52712f2000013a@wowgicflaskapp-wowgic.rhcloud.com/~/git/wowgicflaskapp.git/
+
+git remote add ssh://567cc1842d52712f2000013a@wowgicflaskapp-wowgic.rhcloud.com/~/git/wowgicflaskapp.git/
+
+
+Run 'rhc show-app wowgicFlaskApp' for more details about your app.
+
+git fetch --all
+git reset --hard origin/master
+
+ Root User:     admin
+   Root Password: 8ygFBXZHeIW6
+   Database Name: wowgicflaskapp
+
+Connection URL: mongodb://$OPENSHIFT_MONGODB_DB_HOST:$OPENSHIFT_MONGODB_DB_PORT/
+mongoDb mongodb://admin:8ygFBXZHeIW6@wowgicflaskapp-wowgic.rhcloud.com/:27017
+
+mongo wowgicflaskapp-wowgic.rhcloud.com:27017/wowgicflaskapp -u admin -p 8ygFBXZHeIW6
+mongodb://wowgic:wowgic@ds043714.mongolab.com:43714/wogicdb
+
+http://localhost/www/#/app/playlists
+
+export SPARK_HOME=/var/lib/openshift/567cc1842d52712f2000013a/app-root/dependencies/spark-1.6.0-bin-hadoop2.6/
+export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+
+https://www.facebook.com/jennakatieharris
+https://www.facebook.com/jamie.harris.585112?fref=pb&hc_location=friends_tab&pnref=friends.all
+
+
+
+ssh root@ec2-54-68-162-40.us-west-2.compute.amazonaws.com
+ssh root@52.35.65.3
+
+arn:aws:iam::387870237516:user/sathishsms
+172.31.30.169
+/root/Downloads/neo4j-community-2.3.1/bin
+/home/ec2-user/neo4j-community-2.3.2/bin/neo4j start
+
+mod_wsgi-express start-server wsgi.py --port=80 --user sathishsms
+
